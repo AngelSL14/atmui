@@ -1,0 +1,1304 @@
+$tnmin:0px;
+$tnmax:383px;
+$xxsmin:384px;
+$xxsmax:479px;
+$xsmin:480px;
+$xsmax:767px;
+$smmin:768px;
+$smmax:991px;
+$mdmin:992px;
+$mdmax:1199px;
+$lg:1200px;
+
+#nipComponent-Container{
+    width: 100%;
+    height: 100vh;
+    #up-container{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            div{
+                width: 40%;
+                margin: auto auto;
+                #inputNip{
+                    width: 300px;
+                    height: 40px;
+                    font-size: 2rem;
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                }
+                #squareContainer{
+                    color:black;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto auto;
+                    #divContainer{
+                        display: flex;
+                        justify-content: space-around;
+                        width: 100%;
+                        div{
+                            border-style: solid;
+                            border-color:gray;
+                            font-size: 3rem;
+                            width: 70px;
+                            height: 70px;
+                            background-color: white;
+                            border-radius: 10%;
+                            margin: 0 6px;
+                            display: flex;
+                            span{
+                                margin: auto auto;
+                            }
+                        }
+                    }
+                }
+                #nipTextContainer{
+                    height: 46px;
+                    width: 180px;
+                    border-radius: 8%;
+                    background-color: white;
+                    margin: auto auto;
+                    color: black;
+                }
+            }
+    }
+    #down-container{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+
+            #left-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 40px;
+                }
+            }
+            #middle-container{
+                width: 40%;
+            }
+            #right-container{
+                width: 30%;
+            }
+    }
+            
+}
+
+#tipoTargetaComponent{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: space-between;
+    #left-container{
+        width: 30%;
+        margin-top:300px;
+    }
+    #middle-container{
+        width: 40%;
+        margin: auto auto;
+            #carnet-tipo-targeta{
+                margin-left: 200px;
+            }
+            h1{
+                font-size: 3rem;
+            }
+    }
+    #right-container{
+        width: 30%;
+        display: block;
+        margin: auto auto;
+        #button-right-container{
+            width:30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-end;
+                margin-top:40px;
+            }
+        }
+    }
+}
+
+#consultaSaldoMovimientos{
+    #text-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        #text-consulta{
+            font-size: 2rem;
+            margin-top: -200px;
+           
+        }
+    }
+    #Button-consulta{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        #button-left{
+            display: grid;
+            #abajo{
+                margin-bottom: 100px;
+            }
+        }
+        #button-right{
+            display: grid;
+            #abajo{
+                margin-bottom: 200px;
+            }
+        }
+    }
+}
+
+#select-Operation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    #left-container{
+        width:30%;
+        height:100vh;
+        #left-button-container{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 40px;
+            }
+        }
+    }
+    #middle-container{
+        margin-top: 25px;
+        width:40%;
+        height:40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 100%;
+            #amountContainer{
+                color:black;
+                margin: auto auto;
+                width:160px;
+                height: 40px;
+                background-color: rgb(252, 250, 250);
+                border-radius: 8px;
+                border-style: black;
+                border-color: black;
+                display: flex;
+                justify-content: left;
+                align-items: center;
+            }
+        }
+    }
+    #right-container{
+        width: 30%;
+        height:100vh;
+        #right-button-container{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-end;
+                margin-top:40px;
+            }
+        }
+    }
+}
+
+#selectConsultaMovimientoComponent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #left-container{
+        width:30%;
+        #left-button-container{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 40px;
+            }   
+        }
+    }
+    #middle-container{
+        margin-top:20px;
+        width:40%;
+        height: 25vh;
+    }
+    #right-container{
+        width:30%;
+        height: 100vh;
+        #right-button-container{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+#avisoComisionRetiroComponent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #left-container{
+        width:30%;
+        height: 100vh;
+        div{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+    #middle-container{
+        width:40%;
+    }
+    #right-container{
+        width:30%;
+        height: 100vh;
+        div{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+#avisoComisionMovimientosComponent{
+    width:100%;
+    display: flex;
+    #left-container{
+        width:30%;
+        div{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+    #middle-container{
+        width:40%;
+    }
+    #right-container{
+        width:30%;
+        div{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+#AvisoComisionSaldoComponent{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #left-container{
+        width:30%;
+        height: 100vh;
+        div{
+            width: 30%;
+            display: flex;
+            justify-content: flex-start;
+            position: absolute;
+            bottom: 2px;
+        }
+    }
+    #middle-container{
+        width:40%;
+    }
+    #right-container{
+        width:30%;
+        height: 100vh;
+        div{
+            width: 30%;
+            display: flex;
+            justify-content: flex-end;
+            position: absolute;
+            bottom: 2px;
+        }
+    }
+}
+
+#avisoComisionTiempoAireComponent{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #left-container{
+        width:30%;
+        height: 100vh;
+        div{
+            width: 30%;
+            display: flex;
+            justify-content: flex-start;
+            position: absolute;
+            bottom: 2px;
+        }
+    }
+    #middle-container{
+        width:40%;
+    }
+    #right-container{
+        width:30%;
+        height: 100vh;
+        div{
+            width: 30%;
+            display: flex;
+            justify-content: flex-end;
+            position: absolute;
+            bottom: 2px;
+        }
+    }
+}
+
+#retiro-option-component{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #left-container{
+        width:30%;
+        #left-button-container{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 40px;
+            }
+        }
+    }
+    #middle-container{
+        width:40%;
+        #amountContainer{
+            color:black;
+            margin: auto auto;
+            width:160px;
+            height: 40px;
+            background-color: rgb(252, 250, 250);
+            border-radius: 8px;
+            border-style: black;
+            border-color: black;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+    }
+    #right-container{
+        width:30%;
+        #right-button-container{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+#imprimir-ticket-component{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    #logoTicket{
+        width: 300px;
+    }
+}
+
+#retire-tarjeta{
+    display: flex;
+    #logoTarjeta{
+        width: 500px;
+    }
+}
+
+#menu-admin{
+    width: 100%;
+    display: flex;
+    #left-container{
+        width: 30%;
+        #left-buttons{
+            margin-top: 300px;
+            div{
+                margin-top: 80px;
+            }
+        }
+    }
+    #middle-container{
+        width: 40%;
+    }
+    #right-container{
+        width: 30%;
+        #right-buttons{
+            margin-top: 300px;
+            div{
+                margin-top: 80px;
+            }
+        }
+    }
+}
+
+#caseteros-menu-adicion{
+    width: 100%;
+    display: flex;
+    #left-container{
+        width: 30%;
+        #left-buttons{
+            margin-top: 300px;
+            div{
+                margin-top: 80px;
+            }
+        }
+    }
+    #middle-container{
+        width: 40%;
+    }
+    #right-container{
+        width: 30%;
+        #right-buttons{
+            margin-top: 300px;
+            div{
+                margin-top: 80px;
+            }
+        }
+    }
+}
+
+#caseterosDecrementoComponent{
+    width: 100%;
+    display: flex;
+    #left-container{
+            width: 30%;
+            #left-buttons{
+                margin-top: 300px;
+                div{
+                    margin-top: 80px;
+                }
+            }
+    }
+    #middle-container{
+            width: 40%;
+    }
+    #right-container{
+            width: 30%;
+            #right-buttons{
+                margin-top: 300px;
+                div{
+                    margin-top: 80px;
+                }
+            }
+    }
+}
+
+#modificar-monto-caseteros-adicion{
+    width: 100%;
+    display: flex;
+    #left-container{
+        width: 30%;
+        div{
+            margin-top: 450px;
+        }
+    }
+    #middle-container{
+        width: 40%;
+        #input-container{
+            h1{
+                border-radius: 5%;
+                margin: auto auto;
+                width: 50%;
+                background-color: white;
+            }
+        }
+    }
+    #right-container{
+        width: 30%;
+            div{
+                margin-top: 450px;
+            }
+    }
+}
+
+#ModificarCaseterosDecremento{
+    width: 100%;
+    display: flex;
+    #left-container{
+            width: 30%;
+            div{
+                margin-top: 450px;
+            }
+    }
+    #middle-container{
+            width: 40%;
+            #input-container{
+                h1{
+                    border-radius: 5%;
+                    margin: auto auto;
+                    width: 50%;
+                    background-color: white;
+                }
+            }
+    }
+    #right-container{
+            width: 30%;
+            div{
+                margin-top: 450px;
+            }
+    }
+}
+
+#wait-inicio-component{
+    color:white;
+    width: 100%;
+    height:100vh;
+    background-image: url('../assets/img/logoProsa.jpg');
+    background-color: rgb(48, 126, 172);
+    h2{
+        font-weight: bold;
+        font-size: 3rem;
+        
+    }
+}
+
+#WaitRetiroComponent{
+    h2{
+        font-weight: bold;
+        font-size: 2.5rem;
+        
+    }
+}
+
+#waitRetiroRealizandoComponent{
+    h2{
+        
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+#WaitConsultaMovimientoComponent{
+    h2{
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+#WaitConsultaMovimientoRealizandoComponent{
+    h2{
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+}
+
+#WaitConsultaSaldoComponent{
+    h2{
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+}
+
+#WaitConsultaSaldoRealizandoComponent{
+    h2{
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+}
+#WaitTiempoAireComponent{
+    h2{
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+}
+#WaitTiempoAireRealizando{
+    h2{
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+}
+
+#WaitCambioNipComponent{
+    h2{
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+}
+
+#companiesComponent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   
+    #left-container{
+        width: 30%;
+        height: 100vh;
+        #left-button-container{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 40px;
+            }
+        }
+    }
+    #middle-container{
+        width: 40%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div{
+            margin: auto auto;
+        }
+    }
+    #right-container{
+        width: 30%;
+        height: 100vh;
+        #right-button-container{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            div{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+#NumeroTelefonoComponent{
+    width: 100%;
+    height: 50%;
+    #up-container{
+        width: 100%;
+        height: 75%;
+        #text-container{
+            text-align: center;
+        }
+        #container-num{
+            width: 80%;
+            margin: auto auto;
+            #numTelefonico{
+                color:black;
+                display: flex;
+                justify-content:space-between;
+                width: 100%;
+                div{
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 8px;
+                    font-size: 3rem;
+                    font-weight: bold;
+                    width: 8%;
+                    height: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }   
+        }
+    }
+    #select-Operation{
+        display: flex;
+        width: 100%;
+        height: 10%;
+        #left-container{
+            width: 30%;
+            height: 100%;
+            #left-button-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 40px;
+                }
+            }
+        }
+        #middle-container{
+            width: 40%;
+        }
+        #right-container{
+            width: 30%;
+            height: 100%;
+            #right-button-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+#MontoTiempoAireComponent{
+    width: 100%;
+    height: 100vh;
+    #up-container{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+          
+    }
+    #down-container{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+       
+        #left-container{
+            width: 30%;
+            #left-button-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    margin-top: 45px;
+                    display: flex;
+                    justify-content: flex-start;
+
+                }
+               
+            }
+        }
+        #middle-container{
+            width: 40%;
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        #right-container{
+                width: 30%;
+                #right-button-container{
+                    width: 30%;
+                    position: absolute;
+                    bottom: 2px;
+                        div{
+                            display: flex;
+                            justify-content: flex-end;
+                            margin-top: 45px;
+                        }
+                }
+        }
+    }
+}
+#VerificarRecarga{
+    width: 100%;
+    height: 40vh;
+    div{
+    h1,h2{
+        margin-block-start:0;
+        margin-block-end:0;
+    }
+    #up-container{
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        #spanish{
+            font-size: 2.0rem;
+        }
+    }
+}
+    #down-container{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        #left-container{
+            width: 30%;
+        }
+        #middle-container{
+            width: 40%;
+        }
+        #right-container{
+            width: 30%;
+            #right-button-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+#Movimientos-consulta{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    #up-container{
+        text-align: center;
+        width: 100%;
+        height: 80%;
+        #table-container{
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin: auto auto;
+            width:100%;
+            height: 100%;
+            #movimientos-table{
+                width: 95%;
+                height: 100%;
+                background-color: white;
+                border-radius: 10px;
+                tbody{
+                    width: 90%;
+                    th{
+                        background-color: rgb(238, 236, 236);
+                        cursor: pointer;
+                    }
+                    th:hover{
+                        background-color: gray;
+                        color:white;
+                    }
+                }
+            }
+            @media screen and (max-width:800px) and (min-width:500px){
+                font-size: 1rem;
+                color:rgb(0, 0, 0);
+            }
+        }
+    }
+    #select-Operation{
+        display: flex;
+        width: 100%;
+        height: 20%;
+        #left-container{
+            width: 30%;
+            height: 100%;
+            #left-button-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 40px;
+                }
+            }
+        }
+        #middle-container{
+            width: 40%;
+        }
+        #right-container{
+            width: 30%;
+            height: 100%;
+            #right-button-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+
+#Saldo-consulta{
+    width: 100%;
+    margin:auto auto;
+    text-align: center;
+
+
+    #contenedor{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #table-container{
+            font-size: 3rem;
+            margin: auto auto;
+            text-align: center;
+            width: 90%;
+            margin-bottom: 50px;
+        }
+    }
+    #button-container{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 25vh;
+        #left-button{
+            width: 30%;
+            div{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                display: flex;
+                justify-content: flex-start;
+            }   
+        }
+        #middle-button{
+            width: 40%;
+        }
+        #right-button{
+            width: 30%;
+            div{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                display: flex;
+                justify-content: flex-end;
+            }
+        }
+    }
+}
+
+#index{
+     width: 100%;
+     height: 100%;
+     display: block;
+     #up-container{
+         width: 100%;
+         height: 88%;
+         #swf{
+             width: 100%;
+             height: 100%;
+         }
+     }
+     #down-container{
+         width: 100%;
+         height: 10%;
+         display: flex;
+         margin-top: 0px;
+         #left-container{
+             width: 26%;
+             height: 100%;
+         }
+         #middle-container{
+             width: 48%;
+             height: 100%;
+             font-size: 1.2rem;
+             h2{
+                 margin-top: 0px;
+             }
+         }
+         #right-container{
+             width: 26%;
+             height: 100%;
+             #right-button-container{
+                width: 100%;
+                height: 100%;
+                div{
+                    width: 100%;
+                    height: 100%;   
+                }
+             }
+         }
+     }
+}
+
+#Resultados-Caseteros-consulta{
+    width: 100%;
+    #button-container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+#Resultados-Caseteros-concentracion{
+    width: 100%;
+    #button-container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+#ImprimirTicketAdmin{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    h1{
+        font-size: .8rem;
+    }
+    #logoTicketAdmin{
+        width: 200px;
+    }
+}
+
+#RetornoMenuComponent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #left-container{
+        width: 30%;
+        height: 100vh;
+        div{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            display: flex;
+            justify-content: flex-start;
+        }
+    }
+    #middle-container{
+        width: 40%;
+    }
+    #right-container{
+        width: 30%;
+        height: 100vh;
+        div{
+            width: 30%;
+            position: absolute;
+            bottom: 2px;
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+}
+
+#cambioNip-Container{
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    #the_nip_container{
+        width: 100%;
+        height: 40vh;
+        margin: auto auto;
+        div{
+            margin-top:30px;
+                #squareContainer{
+                    color:black;
+                    #divContainerUp{
+                        display: flex;
+                        justify-content: center;
+                        div{
+                            border-style: solid;
+                            border-color:gray;
+                            font-size: 3rem;
+                            width: 70px;
+                            height: 70px;
+                            background-color: white;
+                            border-radius: 10%;
+                            margin: 0 6px;
+                            display: flex;
+                            span{
+                                margin: auto auto;
+                            }
+                        }
+                    }
+            }
+            #squareContainerDown{
+                color:black;
+                    #divContainerDown{
+                        display: flex;
+                        justify-content: center;
+                        div{
+                            border-style: solid;
+                            border-color:gray;
+                            font-size: 3rem;
+                            width: 70px;
+                            height: 70px;
+                            background-color: white;
+                            border-radius: 10%;
+                            margin: 0 6px;
+                            display: flex;
+                            span{
+                                margin: auto auto;
+                            }
+                        }
+                    }
+            }
+        }
+    }
+    #down-container{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        #left-container{
+            width: 30%;
+            #left-button-container{
+                position: absolute;
+                bottom: 2px;
+                width: 30%;
+                div{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 40px;
+                }
+            }
+        }
+        #middle-container{
+            width: 40%;
+        }
+        #right-container{
+            width: 30%;
+            #right-button-container{
+                position: absolute;
+                bottom: 2px;
+                width: 30%;
+                div{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+   
+
+#VerificacionCambioNip{
+    margin: auto auto;
+    
+}
+
+#remesas{
+    width: 100%;
+    height: 80%;
+    #up-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            #up-main-container{
+                width: 100%;
+                height: 80%;
+                margin: auto auto;
+                #box-container{
+                    width: 100%;
+                    height: 20%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    div{
+                        width: 33%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        div{
+                            width: 22%;
+                            height: 60px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            background-color: rgb(255, 255, 255);
+                            border-radius: 8px;
+                            font-size: 3rem;
+                            font-weight: bold;
+                        }
+                    }
+                    // @media screen and(max-width:600px) {
+                    //     display: block;
+                    //     justify-content: space-around;
+                    //     align-items: center;
+                    //     margin-bottom: 0px;
+                    //     text-align: center;
+                    //     div{
+                    //         height: 33%;
+                    //         div{
+                    //             height: 30px;
+                    //         }
+                    //     }
+                    // }
+                }
+                #box-middle{
+                    width: 33%;
+                    height: 20%;
+                    margin: auto auto;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 22%;
+                        height: 60px;
+                        background-color: rgb(255, 255, 255);
+                        border-radius: 8px;
+                        font-size: 3rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+    }
+    #select-Operation{
+        display: flex;
+        width: 100%;
+        height: 10%;
+        #left-container{
+            width: 30%;
+            height: 100%;
+            #left-button-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 40px;
+                }
+            }
+        }
+        #middle-container{
+            width: 40%;
+        }
+        #right-container{
+            width: 30%;
+            height: 100%;
+            #right-button-container{
+                width: 30%;
+                position: absolute;
+                bottom: 2px;
+                div{
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}

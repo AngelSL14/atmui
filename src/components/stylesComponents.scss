@@ -1,0 +1,234 @@
+$tnmin:0px;
+$tnmax:383px;
+$xxsmin:384px;
+$xxsmax:479px;
+$xsmin:480px;
+$xsmax:767px;
+$smmin:768px;
+$smmax:991px;
+$mdmin:992px;
+$mdmax:1199px;
+$lg:1200px;
+
+// $button-santander:rgb(255, 0, 0);
+// $button-santander-hover: rgb(158, 0, 0);
+// $button-santander-disabled:rgb(255, 121, 121);
+// $button-bancomer:#3385c4;
+// $button-bancomer-hover:#04518b;
+// $button-bancomer-disabled:#70a3ca;
+// $button-azteca:#266e51;
+// $button-azteca-hover:#162c23;
+// $button-azteca-disabled:#60c09a;
+// $button-prosa:#272727;
+// $button-prosa-hover:#070606;
+// $button-prosa-disabled:#464242;
+// $button-bansefi:#907d33;
+// $button-bansefi-hover:#906333;
+// $button-bansefi-disabled:#91a691;
+
+// #prosa{
+//     color:white;
+//     background-color: $button-prosa;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #7c6c6c;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+//     &:hover{
+//         background-color:#070606;
+//     }
+// }
+// #prosa-hover{
+//     color:white;
+//     background-color: $button-prosa-hover;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #7c6c6c;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #prosa-disabled{
+//     color:rgb(119, 110, 110);
+//     background-color: $button-prosa-disabled;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #7c6c6c;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #santander{
+//     color:white;
+//     background-color: $button-santander;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px rgb(141, 0, 0);
+//     font-weight: bold;
+//     font-size: 1.2rem;
+//     &:hover{
+//         background-color: rgb(158, 0, 0);
+//     }
+// }
+// #santander-hover{
+//     color:white;
+//     background-color: $button-santander-hover;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px rgb(141, 0, 0);
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #santander-disabled{
+//     color:rgb(216, 175, 175);
+//     background-color: $button-santander-disabled;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px rgb(141, 106, 106);
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #bancomer{
+//         color:white;
+//         background-color: $button-bancomer;
+//         width: calc(90% - 10px);
+//         height: 70px;
+//         font-family: 'Times New Roman', Times, serif;
+//         border-radius: 8px;
+//         border:solid 1px #074a7e;
+//         font-weight: bold;
+//         font-size: 1.2rem;
+//         &:hover{
+//             background-color: #04518b;
+//         }
+// }
+// #bancomer-hover{
+//     color:white;
+//     background-color: $button-bancomer-hover;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #074a7e;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #bancomer-disabled{
+//     color:rgb(137, 211, 216);
+//     background-color: $button-bancomer-disabled;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #9cc5e9;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #azteca{
+//     color:white;
+//     background-color: $button-azteca;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #254d3d;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+//     &:hover{
+//         background-color: #1d3b2f;
+//     }
+// }
+// #azteca-hover{
+//     color:white;
+//     background-color:$button-azteca-hover;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #254d3d;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #azteca-disabled{
+//     color:#b8cfc6;
+//     background-color:$button-azteca-disabled;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #55a887;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #bansefi{
+// 	color:white;
+//     background-color: $button-bansefi;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #906333;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+//     &:hover{
+//         background-color: #906333;
+//     }
+// }
+// #bansefi-hover{
+// 	color:white;
+//     background-color:$button-bansefi-hover;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #906333;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+// #bansefi-disabled{
+// 	color:white;
+//     background-color:$button-bansefi-disabled;
+//     width: calc(90% - 10px);
+//     height: 70px;
+//     font-family: 'Times New Roman', Times, serif;
+//     border-radius: 8px;
+//     border:solid 1px #906333;
+//     font-weight: bold;
+//     font-size: 1.2rem;
+// }
+#logoProsa{
+    width: calc(95% - 5px) !important;
+}
+#logoCarnet{
+    width: calc(95% - 5px)
+}
+#tdc-cart{
+    width: 250px;
+}
+#logoError{
+    width: 20%;
+}
+#logoBanco{
+    width: 400px;
+    height: 200px;
+    @media screen and (max-width:800px) and (min-width:600px){
+        width: 250px;
+        height: 100px;
+    }
+}
+#cardBank{
+    width: 240px;
+}
+#logoComision{
+    width: 200px
+}

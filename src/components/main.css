@@ -1,0 +1,36 @@
+#logoProsa {
+  width: calc(95% - 5px) !important;
+}
+
+#logoCarnet {
+  width: calc(95% - 5px);
+}
+
+#tdc-cart {
+  width: 250px;
+}
+
+#logoError {
+  width: 20%;
+}
+
+#logoBanco {
+  width: 400px;
+  height: 200px;
+}
+@media screen and (max-width: 800px) and (min-width: 600px) {
+  #logoBanco {
+    width: 250px;
+    height: 100px;
+  }
+}
+
+#cardBank {
+  width: 240px;
+}
+
+#logoComision {
+  width: 200px;
+}
+
+/*# sourceMappingURL=main.css.map */

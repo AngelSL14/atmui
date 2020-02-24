@@ -1,0 +1,35 @@
+#index {
+  color: black;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #464040;
+}
+#index #index-container h1, #index #index-container Button {
+  margin-top: -30px;
+}
+#index #index-container #logoCarnet {
+  margin-top: 40px;
+}
+
+.dashboard {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.dashboard div {
+  text-align: center;
+}
+.dashboard div h1 {
+  font-size: 3rem;
+}
+
+/*# sourceMappingURL=stylesViews.css.map */

@@ -1,0 +1,1246 @@
+#nipComponent-Container {
+  width: 100%;
+  height: 100vh;
+}
+#nipComponent-Container #up-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nipComponent-Container #up-container div {
+  width: 40%;
+  margin: auto auto;
+}
+#nipComponent-Container #up-container div #inputNip {
+  width: 300px;
+  height: 40px;
+  font-size: 2rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#nipComponent-Container #up-container div #squareContainer {
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+}
+#nipComponent-Container #up-container div #squareContainer #divContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+#nipComponent-Container #up-container div #squareContainer #divContainer div {
+  border-style: solid;
+  border-color: gray;
+  font-size: 3rem;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 10%;
+  margin: 0 6px;
+  display: flex;
+}
+#nipComponent-Container #up-container div #squareContainer #divContainer div span {
+  margin: auto auto;
+}
+#nipComponent-Container #up-container div #nipTextContainer {
+  height: 46px;
+  width: 180px;
+  border-radius: 8%;
+  background-color: white;
+  margin: auto auto;
+  color: black;
+}
+#nipComponent-Container #down-container {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+}
+#nipComponent-Container #down-container #left-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#nipComponent-Container #down-container #left-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#nipComponent-Container #down-container #middle-container {
+  width: 40%;
+}
+#nipComponent-Container #down-container #right-container {
+  width: 30%;
+}
+
+#tipoTargetaComponent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+#tipoTargetaComponent #left-container {
+  width: 30%;
+  margin-top: 300px;
+}
+#tipoTargetaComponent #middle-container {
+  width: 40%;
+  margin: auto auto;
+}
+#tipoTargetaComponent #middle-container #carnet-tipo-targeta {
+  margin-left: 200px;
+}
+#tipoTargetaComponent #middle-container h1 {
+  font-size: 3rem;
+}
+#tipoTargetaComponent #right-container {
+  width: 30%;
+  display: block;
+  margin: auto auto;
+}
+#tipoTargetaComponent #right-container #button-right-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#tipoTargetaComponent #right-container #button-right-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#consultaSaldoMovimientos #text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#consultaSaldoMovimientos #text-container #text-consulta {
+  font-size: 2rem;
+  margin-top: -200px;
+}
+#consultaSaldoMovimientos #Button-consulta {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+#consultaSaldoMovimientos #Button-consulta #button-left {
+  display: grid;
+}
+#consultaSaldoMovimientos #Button-consulta #button-left #abajo {
+  margin-bottom: 100px;
+}
+#consultaSaldoMovimientos #Button-consulta #button-right {
+  display: grid;
+}
+#consultaSaldoMovimientos #Button-consulta #button-right #abajo {
+  margin-bottom: 200px;
+}
+
+#select-Operation {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#select-Operation #left-container {
+  width: 30%;
+  height: 100vh;
+}
+#select-Operation #left-container #left-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#select-Operation #left-container #left-button-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#select-Operation #middle-container {
+  margin-top: 25px;
+  width: 40%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#select-Operation #middle-container div {
+  width: 100%;
+}
+#select-Operation #middle-container div #amountContainer {
+  color: black;
+  margin: auto auto;
+  width: 160px;
+  height: 40px;
+  background-color: #fcfafa;
+  border-radius: 8px;
+  border-style: black;
+  border-color: black;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#select-Operation #right-container {
+  width: 30%;
+  height: 100vh;
+}
+#select-Operation #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#select-Operation #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#selectConsultaMovimientoComponent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#selectConsultaMovimientoComponent #left-container {
+  width: 30%;
+}
+#selectConsultaMovimientoComponent #left-container #left-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#selectConsultaMovimientoComponent #left-container #left-button-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#selectConsultaMovimientoComponent #middle-container {
+  margin-top: 20px;
+  width: 40%;
+  height: 25vh;
+}
+#selectConsultaMovimientoComponent #right-container {
+  width: 30%;
+  height: 100vh;
+}
+#selectConsultaMovimientoComponent #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#selectConsultaMovimientoComponent #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#avisoComisionRetiroComponent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#avisoComisionRetiroComponent #left-container {
+  width: 30%;
+  height: 100vh;
+}
+#avisoComisionRetiroComponent #left-container div {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+#avisoComisionRetiroComponent #middle-container {
+  width: 40%;
+}
+#avisoComisionRetiroComponent #right-container {
+  width: 30%;
+  height: 100vh;
+}
+#avisoComisionRetiroComponent #right-container div {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#avisoComisionMovimientosComponent {
+  width: 100%;
+  display: flex;
+}
+#avisoComisionMovimientosComponent #left-container {
+  width: 30%;
+}
+#avisoComisionMovimientosComponent #left-container div {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+#avisoComisionMovimientosComponent #middle-container {
+  width: 40%;
+}
+#avisoComisionMovimientosComponent #right-container {
+  width: 30%;
+}
+#avisoComisionMovimientosComponent #right-container div {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#AvisoComisionSaldoComponent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#AvisoComisionSaldoComponent #left-container {
+  width: 30%;
+  height: 100vh;
+}
+#AvisoComisionSaldoComponent #left-container div {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 2px;
+}
+#AvisoComisionSaldoComponent #middle-container {
+  width: 40%;
+}
+#AvisoComisionSaldoComponent #right-container {
+  width: 30%;
+  height: 100vh;
+}
+#AvisoComisionSaldoComponent #right-container div {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 2px;
+}
+
+#avisoComisionTiempoAireComponent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#avisoComisionTiempoAireComponent #left-container {
+  width: 30%;
+  height: 100vh;
+}
+#avisoComisionTiempoAireComponent #left-container div {
+  width: 30%;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  bottom: 2px;
+}
+#avisoComisionTiempoAireComponent #middle-container {
+  width: 40%;
+}
+#avisoComisionTiempoAireComponent #right-container {
+  width: 30%;
+  height: 100vh;
+}
+#avisoComisionTiempoAireComponent #right-container div {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 2px;
+}
+
+#retiro-option-component {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#retiro-option-component #left-container {
+  width: 30%;
+}
+#retiro-option-component #left-container #left-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#retiro-option-component #left-container #left-button-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#retiro-option-component #middle-container {
+  width: 40%;
+}
+#retiro-option-component #middle-container #amountContainer {
+  color: black;
+  margin: auto auto;
+  width: 160px;
+  height: 40px;
+  background-color: #fcfafa;
+  border-radius: 8px;
+  border-style: black;
+  border-color: black;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#retiro-option-component #right-container {
+  width: 30%;
+}
+#retiro-option-component #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#retiro-option-component #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#imprimir-ticket-component {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#imprimir-ticket-component #logoTicket {
+  width: 300px;
+}
+
+#retire-tarjeta {
+  display: flex;
+}
+#retire-tarjeta #logoTarjeta {
+  width: 500px;
+}
+
+#menu-admin {
+  width: 100%;
+  display: flex;
+}
+#menu-admin #left-container {
+  width: 30%;
+}
+#menu-admin #left-container #left-buttons {
+  margin-top: 300px;
+}
+#menu-admin #left-container #left-buttons div {
+  margin-top: 80px;
+}
+#menu-admin #middle-container {
+  width: 40%;
+}
+#menu-admin #right-container {
+  width: 30%;
+}
+#menu-admin #right-container #right-buttons {
+  margin-top: 300px;
+}
+#menu-admin #right-container #right-buttons div {
+  margin-top: 80px;
+}
+
+#caseteros-menu-adicion {
+  width: 100%;
+  display: flex;
+}
+#caseteros-menu-adicion #left-container {
+  width: 30%;
+}
+#caseteros-menu-adicion #left-container #left-buttons {
+  margin-top: 300px;
+}
+#caseteros-menu-adicion #left-container #left-buttons div {
+  margin-top: 80px;
+}
+#caseteros-menu-adicion #middle-container {
+  width: 40%;
+}
+#caseteros-menu-adicion #right-container {
+  width: 30%;
+}
+#caseteros-menu-adicion #right-container #right-buttons {
+  margin-top: 300px;
+}
+#caseteros-menu-adicion #right-container #right-buttons div {
+  margin-top: 80px;
+}
+
+#caseterosDecrementoComponent {
+  width: 100%;
+  display: flex;
+}
+#caseterosDecrementoComponent #left-container {
+  width: 30%;
+}
+#caseterosDecrementoComponent #left-container #left-buttons {
+  margin-top: 300px;
+}
+#caseterosDecrementoComponent #left-container #left-buttons div {
+  margin-top: 80px;
+}
+#caseterosDecrementoComponent #middle-container {
+  width: 40%;
+}
+#caseterosDecrementoComponent #right-container {
+  width: 30%;
+}
+#caseterosDecrementoComponent #right-container #right-buttons {
+  margin-top: 300px;
+}
+#caseterosDecrementoComponent #right-container #right-buttons div {
+  margin-top: 80px;
+}
+
+#modificar-monto-caseteros-adicion {
+  width: 100%;
+  display: flex;
+}
+#modificar-monto-caseteros-adicion #left-container {
+  width: 30%;
+}
+#modificar-monto-caseteros-adicion #left-container div {
+  margin-top: 450px;
+}
+#modificar-monto-caseteros-adicion #middle-container {
+  width: 40%;
+}
+#modificar-monto-caseteros-adicion #middle-container #input-container h1 {
+  border-radius: 5%;
+  margin: auto auto;
+  width: 50%;
+  background-color: white;
+}
+#modificar-monto-caseteros-adicion #right-container {
+  width: 30%;
+}
+#modificar-monto-caseteros-adicion #right-container div {
+  margin-top: 450px;
+}
+
+#ModificarCaseterosDecremento {
+  width: 100%;
+  display: flex;
+}
+#ModificarCaseterosDecremento #left-container {
+  width: 30%;
+}
+#ModificarCaseterosDecremento #left-container div {
+  margin-top: 450px;
+}
+#ModificarCaseterosDecremento #middle-container {
+  width: 40%;
+}
+#ModificarCaseterosDecremento #middle-container #input-container h1 {
+  border-radius: 5%;
+  margin: auto auto;
+  width: 50%;
+  background-color: white;
+}
+#ModificarCaseterosDecremento #right-container {
+  width: 30%;
+}
+#ModificarCaseterosDecremento #right-container div {
+  margin-top: 450px;
+}
+
+#wait-inicio-component {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/img/logoProsa.jpg");
+  background-color: #307eac;
+}
+#wait-inicio-component h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#WaitRetiroComponent h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#waitRetiroRealizandoComponent h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#WaitConsultaMovimientoComponent h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#WaitConsultaMovimientoRealizandoComponent h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#WaitConsultaSaldoComponent h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#WaitConsultaSaldoRealizandoComponent h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#WaitTiempoAireComponent h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#WaitTiempoAireRealizando h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#WaitCambioNipComponent h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+#companiesComponent {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+#companiesComponent #left-container {
+  width: 30%;
+  height: 100vh;
+}
+#companiesComponent #left-container #left-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#companiesComponent #left-container #left-button-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#companiesComponent #middle-container {
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#companiesComponent #middle-container div {
+  margin: auto auto;
+}
+#companiesComponent #right-container {
+  width: 30%;
+  height: 100vh;
+}
+#companiesComponent #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#companiesComponent #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#NumeroTelefonoComponent {
+  width: 100%;
+  height: 50%;
+}
+#NumeroTelefonoComponent #up-container {
+  width: 100%;
+  height: 75%;
+}
+#NumeroTelefonoComponent #up-container #text-container {
+  text-align: center;
+}
+#NumeroTelefonoComponent #up-container #container-num {
+  width: 80%;
+  margin: auto auto;
+}
+#NumeroTelefonoComponent #up-container #container-num #numTelefonico {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#NumeroTelefonoComponent #up-container #container-num #numTelefonico div {
+  background-color: white;
+  border-radius: 8px;
+  font-size: 3rem;
+  font-weight: bold;
+  width: 8%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#NumeroTelefonoComponent #select-Operation {
+  display: flex;
+  width: 100%;
+  height: 10%;
+}
+#NumeroTelefonoComponent #select-Operation #left-container {
+  width: 30%;
+  height: 100%;
+}
+#NumeroTelefonoComponent #select-Operation #left-container #left-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#NumeroTelefonoComponent #select-Operation #left-container #left-button-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#NumeroTelefonoComponent #select-Operation #middle-container {
+  width: 40%;
+}
+#NumeroTelefonoComponent #select-Operation #right-container {
+  width: 30%;
+  height: 100%;
+}
+#NumeroTelefonoComponent #select-Operation #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#NumeroTelefonoComponent #select-Operation #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#MontoTiempoAireComponent {
+  width: 100%;
+  height: 100vh;
+}
+#MontoTiempoAireComponent #up-container {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#MontoTiempoAireComponent #down-container {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+}
+#MontoTiempoAireComponent #down-container #left-container {
+  width: 30%;
+}
+#MontoTiempoAireComponent #down-container #left-container #left-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#MontoTiempoAireComponent #down-container #left-container #left-button-container div {
+  margin-top: 45px;
+  display: flex;
+  justify-content: flex-start;
+}
+#MontoTiempoAireComponent #down-container #middle-container {
+  width: 40%;
+}
+#MontoTiempoAireComponent #down-container #middle-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#MontoTiempoAireComponent #down-container #right-container {
+  width: 30%;
+}
+#MontoTiempoAireComponent #down-container #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#MontoTiempoAireComponent #down-container #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 45px;
+}
+
+#VerificarRecarga {
+  width: 100%;
+  height: 40vh;
+}
+#VerificarRecarga div h1, #VerificarRecarga div h2 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+#VerificarRecarga div #up-container {
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+}
+#VerificarRecarga div #up-container #spanish {
+  font-size: 2rem;
+}
+#VerificarRecarga #down-container {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+}
+#VerificarRecarga #down-container #left-container {
+  width: 30%;
+}
+#VerificarRecarga #down-container #middle-container {
+  width: 40%;
+}
+#VerificarRecarga #down-container #right-container {
+  width: 30%;
+}
+#VerificarRecarga #down-container #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#VerificarRecarga #down-container #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#Movimientos-consulta {
+  width: 100%;
+  height: 60%;
+  text-align: center;
+}
+#Movimientos-consulta #up-container {
+  text-align: center;
+  width: 100%;
+  height: 80%;
+}
+#Movimientos-consulta #up-container #table-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+  width: 100%;
+  height: 100%;
+}
+#Movimientos-consulta #up-container #table-container #movimientos-table {
+  width: 95%;
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+#Movimientos-consulta #up-container #table-container #movimientos-table tbody {
+  width: 90%;
+}
+#Movimientos-consulta #up-container #table-container #movimientos-table tbody th {
+  background-color: #eeecec;
+  cursor: pointer;
+}
+#Movimientos-consulta #up-container #table-container #movimientos-table tbody th:hover {
+  background-color: gray;
+  color: white;
+}
+@media screen and (max-width: 800px) and (min-width: 500px) {
+  #Movimientos-consulta #up-container #table-container {
+    font-size: 1rem;
+    color: black;
+  }
+}
+#Movimientos-consulta #select-Operation {
+  display: flex;
+  width: 100%;
+  height: 20%;
+}
+#Movimientos-consulta #select-Operation #left-container {
+  width: 30%;
+  height: 100%;
+}
+#Movimientos-consulta #select-Operation #left-container #left-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#Movimientos-consulta #select-Operation #left-container #left-button-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#Movimientos-consulta #select-Operation #middle-container {
+  width: 40%;
+}
+#Movimientos-consulta #select-Operation #right-container {
+  width: 30%;
+  height: 100%;
+}
+#Movimientos-consulta #select-Operation #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#Movimientos-consulta #select-Operation #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#Saldo-consulta {
+  width: 100%;
+  margin: auto auto;
+  text-align: center;
+}
+#Saldo-consulta #contenedor {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Saldo-consulta #contenedor #table-container {
+  font-size: 3rem;
+  margin: auto auto;
+  text-align: center;
+  width: 90%;
+  margin-bottom: 50px;
+}
+#Saldo-consulta #button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 25vh;
+}
+#Saldo-consulta #button-container #left-button {
+  width: 30%;
+}
+#Saldo-consulta #button-container #left-button div {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+#Saldo-consulta #button-container #middle-button {
+  width: 40%;
+}
+#Saldo-consulta #button-container #right-button {
+  width: 30%;
+}
+#Saldo-consulta #button-container #right-button div {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#index {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#index #up-container {
+  width: 100%;
+  height: 88%;
+}
+#index #up-container #swf {
+  width: 100%;
+  height: 100%;
+}
+#index #down-container {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  margin-top: 0px;
+}
+#index #down-container #left-container {
+  width: 26%;
+  height: 100%;
+}
+#index #down-container #middle-container {
+  width: 48%;
+  height: 100%;
+  font-size: 1.2rem;
+}
+#index #down-container #middle-container h2 {
+  margin-top: 0px;
+}
+#index #down-container #right-container {
+  width: 26%;
+  height: 100%;
+}
+#index #down-container #right-container #right-button-container {
+  width: 100%;
+  height: 100%;
+}
+#index #down-container #right-container #right-button-container div {
+  width: 100%;
+  height: 100%;
+}
+
+#Resultados-Caseteros-consulta {
+  width: 100%;
+}
+#Resultados-Caseteros-consulta #button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#Resultados-Caseteros-concentracion {
+  width: 100%;
+}
+#Resultados-Caseteros-concentracion #button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#ImprimirTicketAdmin {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+#ImprimirTicketAdmin h1 {
+  font-size: 0.8rem;
+}
+#ImprimirTicketAdmin #logoTicketAdmin {
+  width: 200px;
+}
+
+#RetornoMenuComponent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#RetornoMenuComponent #left-container {
+  width: 30%;
+  height: 100vh;
+}
+#RetornoMenuComponent #left-container div {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+#RetornoMenuComponent #middle-container {
+  width: 40%;
+}
+#RetornoMenuComponent #right-container {
+  width: 30%;
+  height: 100vh;
+}
+#RetornoMenuComponent #right-container div {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#cambioNip-Container {
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+}
+#cambioNip-Container #the_nip_container {
+  width: 100%;
+  height: 40vh;
+  margin: auto auto;
+}
+#cambioNip-Container #the_nip_container div {
+  margin-top: 30px;
+}
+#cambioNip-Container #the_nip_container div #squareContainer {
+  color: black;
+}
+#cambioNip-Container #the_nip_container div #squareContainer #divContainerUp {
+  display: flex;
+  justify-content: center;
+}
+#cambioNip-Container #the_nip_container div #squareContainer #divContainerUp div {
+  border-style: solid;
+  border-color: gray;
+  font-size: 3rem;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 10%;
+  margin: 0 6px;
+  display: flex;
+}
+#cambioNip-Container #the_nip_container div #squareContainer #divContainerUp div span {
+  margin: auto auto;
+}
+#cambioNip-Container #the_nip_container div #squareContainerDown {
+  color: black;
+}
+#cambioNip-Container #the_nip_container div #squareContainerDown #divContainerDown {
+  display: flex;
+  justify-content: center;
+}
+#cambioNip-Container #the_nip_container div #squareContainerDown #divContainerDown div {
+  border-style: solid;
+  border-color: gray;
+  font-size: 3rem;
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border-radius: 10%;
+  margin: 0 6px;
+  display: flex;
+}
+#cambioNip-Container #the_nip_container div #squareContainerDown #divContainerDown div span {
+  margin: auto auto;
+}
+#cambioNip-Container #down-container {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+}
+#cambioNip-Container #down-container #left-container {
+  width: 30%;
+}
+#cambioNip-Container #down-container #left-container #left-button-container {
+  position: absolute;
+  bottom: 2px;
+  width: 30%;
+}
+#cambioNip-Container #down-container #left-container #left-button-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#cambioNip-Container #down-container #middle-container {
+  width: 40%;
+}
+#cambioNip-Container #down-container #right-container {
+  width: 30%;
+}
+#cambioNip-Container #down-container #right-container #right-button-container {
+  position: absolute;
+  bottom: 2px;
+  width: 30%;
+}
+#cambioNip-Container #down-container #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+#VerificacionCambioNip {
+  margin: auto auto;
+}
+
+#remesas {
+  width: 100%;
+  height: 80%;
+}
+#remesas #up-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#remesas #up-container #up-main-container {
+  width: 100%;
+  height: 80%;
+  margin: auto auto;
+}
+#remesas #up-container #up-main-container #box-container {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#remesas #up-container #up-main-container #box-container div {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#remesas #up-container #up-main-container #box-container div div {
+  width: 22%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#remesas #up-container #up-main-container #box-middle {
+  width: 33%;
+  height: 20%;
+  margin: auto auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#remesas #up-container #up-main-container #box-middle div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22%;
+  height: 60px;
+  background-color: white;
+  border-radius: 8px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+#remesas #select-Operation {
+  display: flex;
+  width: 100%;
+  height: 10%;
+}
+#remesas #select-Operation #left-container {
+  width: 30%;
+  height: 100%;
+}
+#remesas #select-Operation #left-container #left-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#remesas #select-Operation #left-container #left-button-container div {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+#remesas #select-Operation #middle-container {
+  width: 40%;
+}
+#remesas #select-Operation #right-container {
+  width: 30%;
+  height: 100%;
+}
+#remesas #select-Operation #right-container #right-button-container {
+  width: 30%;
+  position: absolute;
+  bottom: 2px;
+}
+#remesas #select-Operation #right-container #right-button-container div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 40px;
+}
+
+/*# sourceMappingURL=stylesSection.css.map */
