@@ -154,7 +154,7 @@ class TimerModule extends Component{
 
     render(){
         return(
-            <BB chain={this.state.capabilities} buttonHover={this.state.buttonHover} onMouse={this.handleHoverButtom} action={this.hl} texto={[null,null,null,"NO",null,null,null,"SI"]} component={<h1>Necesitas mas tiempo ?</h1>}/>
+            <BB chain={this.state.capabilities} buttonHover={this.state.buttonHover} onMouse={this.handleHoverButtom} action={this.hl} texto={[null,null,null,"NO",null,null,null,"SI"]} component={<h1>¿Necesitas más tiempo ?</h1>}/>
         );
     }
 }

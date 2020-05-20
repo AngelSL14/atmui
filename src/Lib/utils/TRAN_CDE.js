@@ -1,4 +1,4 @@
-export var enums = {
+ export var enums = {
     0:'EL SOCKET NO ESTA ENCENDIDO',
     1:'EL LOG ESTA INACTIVO',
     2:'Cajero no Autorizado',
@@ -15,9 +15,10 @@ export var enums = {
 };
 
 export const ServerConfig = {
-    host:"jse",
+    host:"10.255.11.146:91",
+    // host:"jse-nabhi.cloudapp.qa.prosa.lat/jse",
     imgport:"8090",
-    jxiserverport:"8080/jse",
+    jxiserverport:"",
     protocol:"http://",
     urlPublicity:"/background/img/publicidad/",
     urlBackground:"/background/img/FondoBancos/"
@@ -31,10 +32,10 @@ export var host = environment(process.env.NODE_ENV);
 
 function environment(enviroment){
     if(enviroment === "development"){
-        return "jse";
+        return "10.255.11.148";
     }else if(enviroment === "production"){
-        return "jse";
+        return "10.255.11.148";
     }else{
-        return "jse";
+        return "localhost";
     }
 }

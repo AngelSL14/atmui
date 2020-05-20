@@ -142,10 +142,10 @@ class nipComponent extends Component{
                                         this.props.modifyState("nip",server.message);
                                         setTimeout(() => {   
                                             switch (this.props.seguridadTarjeta) {
-                                                case "Tarjeta de CHIP":
+                                                case "CHIP":
                                                     this.handleNipNormal();
                                                     break;
-                                                case "Tarjeta de Banda":
+                                                case "BAND":
                                                     this.handleNipNormal();
                                                     break;
                                                 case "Tarjeta Administrativa":
